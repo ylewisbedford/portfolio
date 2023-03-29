@@ -2,10 +2,15 @@ let latestButton = document.getElementById("latestProjectButton");
 
 let christmasButton = document.getElementById("christmasProjectButton");
 
-function changeTest() {
-    document.getElementById("test").innerHTML = "test successful";
+
+let latestSection = document.getElementById("latest");
+
+
+function unhideLatest() {
+    latestSection.hidden = false;
 }
 
-latestButton.addEventListener('click', changeTest );
+latestButton.addEventListener('click', unhideLatest );
+
 
 
