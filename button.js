@@ -7,10 +7,12 @@ let latestSection = document.getElementById("latest");
 
 
 function unhideLatest() {
-    latestSection.hidden = false;
+    if (latestSection.hidden === true) {
+      latestSection.hidden = false;
+    } else {
+        latestSection.hidden = true;
+    }
 }
 
 latestButton.addEventListener('click', unhideLatest );
-
-
 
