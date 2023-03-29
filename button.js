@@ -4,7 +4,7 @@ let christmasButton = document.getElementById("christmasProjectButton");
 
 
 let latestSection = document.getElementById("latest");
-
+let christmasSection = document.getElementById("christmas");
 
 function unhideLatest() {
     if (latestSection.hidden === true) {
@@ -16,3 +16,12 @@ function unhideLatest() {
 
 latestButton.addEventListener('click', unhideLatest );
 
+function unhideChristmas() {
+    if (christmasSection.hidden === true) {
+        christmasSection.hidden = false;
+    } else {
+        christmasSection.hidden = true;
+    }
+}
+
+christmasButton.addEventListener('click', unhideChristmas);
