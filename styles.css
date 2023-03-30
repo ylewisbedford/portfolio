@@ -1,0 +1,34 @@
+/* universal styles */
+body {
+    background-color: #F9CEEE;
+}
+
+/* mobile buttons */
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none; 
+    margin: 10px;
+}
+
+button {
+    width: 100%;
+    height: 100px;
+    background-color: #0feed0;
+    border-style: dotted;
+}
+
+.button-text {
+    color: black;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.plus {
+    font-size:2rem;
+    font-weight: 900;
+    color: black;
+}
+
