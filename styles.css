@@ -22,6 +22,7 @@ header {
 /* mobile buttons */
 ul {
     padding-left: 0;
+    padding-bottom:4rem;
 }
 
 li {
@@ -55,4 +56,16 @@ button {
     padding-top: 10px;
     padding-bottom: 5px;
     width: 100%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0feed0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
