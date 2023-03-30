@@ -1,6 +1,6 @@
 /* universal styles */
 body {
-    background-color: #F9CEEE;
+    background-color:#f6ffab;
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -10,12 +10,14 @@ h2 {
 
 /* header */
 header {
+    font-family: 'Changa', sans-serif;
     font-weight: 900;
-    background-color:#0feed0;
+    background-color: #6856ff;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 2.5rem;
+    color:#f6ffab;
 }
 
 
@@ -33,21 +35,20 @@ li {
 button {
     width: 100%;
     height: 100px;
-    background-color: #0feed0;
+    background-color: #56ff8a;
     border-style: dotted;
     font-family: 'Source Code Pro', monospace;
-}
-
-.button-text {
     color: black;
-    text-align: left;
+    text-align: center;
     font-size: 1.5rem;
+    padding:auto;
 }
 
-.plus {
+#plusLatest, #plusChristmas  {
     font-size:2rem;
     font-weight: 900;
     color: black;
+    padding: auto;
 }
 
 /* Projects */
@@ -61,7 +62,7 @@ button {
 /* Footer */
 
 footer {
-    background-color: #0feed0;
+    background-color: #ff5698 ;
     position: fixed;
     bottom: 0;
     width: 100%;
