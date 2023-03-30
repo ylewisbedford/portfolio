@@ -1,7 +1,19 @@
 /* universal styles */
 body {
     background-color: #F9CEEE;
+    font-family: 'Source Code Pro', monospace;
 }
+
+/* header */
+header {
+    font-weight: 900;
+    background-color:#0feed0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+
 
 /* mobile buttons */
 ul {
@@ -18,12 +30,13 @@ button {
     height: 100px;
     background-color: #0feed0;
     border-style: dotted;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .button-text {
     color: black;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .plus {
