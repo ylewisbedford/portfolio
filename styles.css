@@ -20,6 +20,10 @@ header {
     color:white;
 }
 
+/* intro paragraph */
+.intro-paragraph {
+    margin: 15px 10px;
+}
 
 /* mobile buttons */
 ul {
