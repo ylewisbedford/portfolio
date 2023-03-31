@@ -17,7 +17,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 2.5rem;
-    color:#f6ffab;
+    color:white;
 }
 
 
@@ -32,7 +32,7 @@ li {
     margin: 10px;
 }
 
-button {
+.projectButton {
     width: 100%;
     height: 100px;
     background-color: #56ff8a;
@@ -62,11 +62,22 @@ button {
 /* Footer */
 
 footer {
-    background-color: #ff5698 ;
+    background-color: #6856ff ;
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.contactme {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-style: dashed;
+    border-width: 1px;
+    padding: 0.5rem;
+    background-color: #ff5698;
 }
