@@ -30,3 +30,12 @@ function unhideChristmas() {
 }
 
 christmasButton.addEventListener('click', unhideChristmas);
+
+
+const copyEmailBtn = document.querySelector('#copy-email-btn');
+
+copyEmailBtn.addEventListener('click', () => {
+  const email = 'yobedford@gmail.com';
+  navigator.clipboard.writeText(email);
+  console.log('Email copied to clipboard');
+});

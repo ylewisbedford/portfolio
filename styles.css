@@ -85,3 +85,19 @@ footer {
     padding: 0.5rem;
     background-color: #ff5698;
 }
+
+/*copy button*/
+#copy-email-btn {
+    background-color: #56ff8a;
+    border-style: dotted;
+    font-family: 'Source Code Pro', monospace;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px;
+ 
+}
+
+.contact-details {
+    margin: 10px;
+}
