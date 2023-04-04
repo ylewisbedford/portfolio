@@ -1,6 +1,6 @@
 /* universal styles */
 body {
-    background-color:#f6ffab;
+    background-color: #f6ffab;
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -17,7 +17,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 2.5rem;
-    color:white;
+    color: white;
 }
 
 /* intro paragraph */
@@ -28,11 +28,11 @@ header {
 /* mobile buttons */
 ul {
     padding-left: 0;
-    padding-bottom:4rem;
+    padding-bottom: 4rem;
 }
 
 li {
-    list-style-type: none; 
+    list-style-type: none;
     margin: 10px;
 }
 
@@ -45,11 +45,12 @@ li {
     color: black;
     text-align: center;
     font-size: 1.5rem;
-    padding:auto;
+    padding: auto;
 }
 
-#plusLatest, #plusChristmas  {
-    font-size:2rem;
+#plusLatest,
+#plusChristmas {
+    font-size: 2rem;
     font-weight: 900;
     color: black;
     padding: auto;
@@ -66,7 +67,7 @@ li {
 /* Footer */
 
 footer {
-    background-color: #6856ff ;
+    background-color: #6856ff;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -86,7 +87,7 @@ footer {
     background-color: #ff5698;
 }
 
-/*copy button*/
+/*copy button contact page*/
 #copy-email-btn {
     background-color: #56ff8a;
     border-style: dotted;
@@ -95,9 +96,24 @@ footer {
     text-align: center;
     font-size: 1rem;
     margin: 10px;
- 
+
 }
 
 .contact-details {
     margin: 10px;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 425px) {
+    .intro-paragraph {
+        float: left;
+        width: 50%;
+    }
+
+    ul {
+        float: right;
+    }
+
+
 }
