@@ -113,29 +113,21 @@ footer {
 
 
 @media only screen and (min-width: 768px) {
-    .intro-paragraph {
-        float: left;
-        width: 60%;
-
-    }
 
     #latest-desktop {
-        display: inline;
-        float: left;
-        width: 60%;
+        display: block;
+
         margin-bottom: 60px;
         margin-left: 10px;
 
     }
 
-    ul {
-        float: right;
-        width: 35%;
-    }
+
 
     .projectButton {
         font-size: 1rem;
         height: 80px;
+        width: 300px;
     }
 
     #plusLatest,
@@ -147,7 +139,9 @@ footer {
         background-color: #3daa5e;
     }
 
-
+    .flexbox {
+        display: flex;
+    }
 
 
 }
