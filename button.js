@@ -21,8 +21,11 @@ function unhideLatest(event) {
             plusLate.innerHTML = "+";
         }
     } else {
-        document.getElementById('latest-desktop').style.display = false;
+
+
+        document.getElementById('latest-desktop').style.display = "block";
         document.getElementById('christmas-desktop').style.display = 'none';
+
         christmasButton.style.background = "#56ff8a";
         latestButton.style.background = '#3daa5e';
 
@@ -46,10 +49,12 @@ function unhideChristmas() {
         }
 
     } else {
-        document.getElementById('christmas-desktop').hidden = false;
+
+        document.getElementById('christmas-desktop').style.display = "block";
         document.getElementById('latest-desktop').style.display = 'none';
         latestButton.style.background = "#56ff8a";
         christmasButton.style.background = '#3daa5e';
+
     }
 }
 
