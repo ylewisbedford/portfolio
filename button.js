@@ -5,8 +5,8 @@ let plusLate = document.getElementById("plusLatest");
 
 let latestSection = document.getElementById("latest");
 let christmasSection = document.getElementById("christmas");
-const mediaQuery = window.matchMedia('(max-width: 768px)')
-
+const mediaQuery = window.matchMedia('(max-width: 768px)');
+const mediaQuery2 = window.matchMedia('(min-width: 767px)');
 
 function unhideLatest(event) {
 
@@ -60,6 +60,18 @@ function unhideChristmas() {
 
 christmasButton.addEventListener('click', unhideChristmas);
 
+
+function getRidOfThings() {
+    if (mediaQuery.matches) {
+        document.getElementById('christmas-desktop').style.display = 'none';
+        document.getElementById('latest-desktop').style.display = 'none';
+    } else {
+        latestSection.style.display = 'none';
+        christmasSection.style.display = 'none';
+    }
+}
+
+window.addEventListener('resize', getRidOfThings);
 
 
 
