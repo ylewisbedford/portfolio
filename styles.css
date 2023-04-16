@@ -36,9 +36,14 @@ li {
     margin: 10px;
 }
 
-#latest-desktop {
+#latest-desktop,
+#christmas-desktop,
+#latest,
+#christmas {
     display: none;
 }
+
+
 
 .projectButton {
     width: 100%;

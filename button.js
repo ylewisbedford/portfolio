@@ -12,12 +12,12 @@ function unhideLatest(event) {
 
     if (mediaQuery.matches) {
 
-        if (latestSection.hidden === true) {
-            latestSection.hidden = false;
+        if (latestSection.style.display === 'none') {
+            latestSection.style.display = 'block';
             plusLate.innerHTML = "-";
 
         } else {
-            latestSection.hidden = true;
+            latestSection.style.display = 'none';
             plusLate.innerHTML = "+";
         }
     } else {
@@ -40,11 +40,11 @@ function unhideChristmas() {
 
     if (mediaQuery.matches) {
 
-        if (christmasSection.hidden === true) {
-            christmasSection.hidden = false;
+        if (christmasSection.style.display === 'none') {
+            christmasSection.style.display = 'block';
             plusChristmas.innerHTML = "-";
         } else {
-            christmasSection.hidden = true;
+            christmasSection.style.display = 'none';
             plusChristmas.innerHTML = "+";
         }
 
