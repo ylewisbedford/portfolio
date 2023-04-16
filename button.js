@@ -60,11 +60,13 @@ function unhideChristmas() {
 
 christmasButton.addEventListener('click', unhideChristmas);
 
-
+// Removes any open items when moving from desktop to mobile or vice versa
 function getRidOfThings() {
     if (mediaQuery.matches) {
         document.getElementById('christmas-desktop').style.display = 'none';
         document.getElementById('latest-desktop').style.display = 'none';
+        latestButton.style.background = '#56ff8a';
+        christmasButton.style.background = '#56ff8a';
     } else {
         latestSection.style.display = 'none';
         christmasSection.style.display = 'none';
