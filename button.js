@@ -70,6 +70,11 @@ function getRidOfThings() {
     } else {
         latestSection.style.display = 'none';
         christmasSection.style.display = 'none';
+        document.getElementById('latest-desktop').style.display = 'block';
+        latestButton.style.background = '#3daa5e';
+
+
+
     }
 }
 
