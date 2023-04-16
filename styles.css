@@ -189,3 +189,7 @@ footer {
     }
 
 }
+
+.hidden {
+    display: none;
+  }
