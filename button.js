@@ -80,7 +80,6 @@ function getRidOfThings() {
 
 window.addEventListener('resize', getRidOfThings);
 
-// cookie banner
 
 
 
